@@ -35,8 +35,7 @@ SONG_COMMAND = get_command("SONG_COMMAND")
     & ~filters.edited
     & ~BANNED_USERS
 
-
-# Song Module
+  # Song Module
 
 
 @app.on_message(
