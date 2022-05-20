@@ -12,11 +12,11 @@
 
 # Bot Commands
 PING_COMMAND : ["ping"]
-START_COMMAND : ["start"]
-HELP_COMMAND : ["help"]
+START_COMMAND : ["mtstart"]
+HELP_COMMAND : ["mthelp"]
 SETTINGS_COMMAND : ["settings", "setting"]
 RELOAD_COMMAND : ["admincache", "reload"]
-GSTATS_COMMAND : ["gstats"]
+GSTATS_COMMAND : ["mtgstats"]
 STATS_COMMAND : ["stats"]
 LANGUAGE_COMMAND : ["lang", "language", "langs"]
 
