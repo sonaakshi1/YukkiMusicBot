@@ -29,16 +29,9 @@ from YukkiMusic.utils.inline.song import song_markup
 SONG_COMMAND = get_command("SONG_COMMAND")
 
 
-@app.on_message(
-    filters.command(SONG_COMMAND)
-    & filters.group
-    & ~filters.edited
-    & ~BANNED_USERS
-
   # Song Module
 
-
-@app.on_message(
+  @app.on_message(
     filters.command(SONG_COMMAND)
     & ~filters.edited
     & ~BANNED_USERS
