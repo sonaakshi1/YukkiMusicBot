@@ -35,21 +35,6 @@ SONG_COMMAND = get_command("SONG_COMMAND")
     & ~filters.edited
     & ~BANNED_USERS
 )
-@language
-async def song_commad_group(client, message: Message, _):
-    upl = InlineKeyboardMarkup(
-        [
-            [
-                InlineKeyboardButton(
-                    text=_["SG_B_1"],
-                    url=f"https://t.me/{app.username}?start=song",
-                ),
-            ]
-        ]
-    )
-    await message.reply_text(_["song_1"], reply_markup=upl)
-
-
 # Song Module
 
 
